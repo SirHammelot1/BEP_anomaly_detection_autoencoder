@@ -1,0 +1,183 @@
+{
+    "skeleton": "MRiLab",
+    "path2metabs": "data/metabolites/metab_df.csv",
+    "basis_set_dir": "data/basissets/",
+    "path2basis": "data/basissets/LCModel_Universal_Philips_UnEdited_PRESS_TE35.BASIS",
+    "metabs": [
+        []
+    ],
+    "basis_set_settings": {
+        "vendor": "Universal_Philips",
+        "localization": "PRESS",
+        "TE": 35
+    },
+    "simulation_params": {
+        "spectral_points": 2048,
+        "TR": 2000.0,
+        "bandwidth": 2000.0,
+        "noise_level": [
+            25,
+            30,
+            35
+        ],
+        "mm_level": [
+            10,
+            15,
+            20,
+            25
+        ],
+        "mm_json_file": "./data/macromolecules/mm_params.json",
+        "lipid_amp_factor": 40.0,
+        "lipid_sigma": [
+            5.0,
+            10.0
+        ],
+        "lipid_phase_min": -180.0,
+        "lipid_phase_max": 180.0,
+        "lipid_lw_min": 30.0,
+        "lipid_lw_max": 50.0,
+        "water_amp_factor": [
+            15,
+            20
+        ],
+        "water_phase_min": -180.0,
+        "water_phase_max": 180.0,
+        "water_damping_min": 
+            30,
+        "water_damping_max": 
+            70,
+        "shim_amplitude_hz": [
+            2.0,
+            2.2,
+            2.5
+        ],
+        "shim_corr_length": [
+            0.5,
+            1.0
+        ],
+        "shim_boundary_amp_factor": 1.5,
+        "shim_boundary_smoothing": 2.0
+    },
+    "voxel_definitions": [
+        {
+            "coords": [
+                77,
+                97,
+                156,
+                176,
+                75,
+                95
+            ],
+            "size": [
+                20,
+                20,
+                20
+            ],
+            "size_mm": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "coords": [
+                79,
+                99,
+                36,
+                56,
+                75,
+                95
+            ],
+            "size": [
+                20,
+                20,
+                20
+            ],
+            "size_mm": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "coords": [
+                42,
+                62,
+                53,
+                73,
+                75,
+                95
+            ],
+            "size": [
+                20,
+                20,
+                20
+            ],
+            "size_mm": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "coords": [
+                51,
+                71,
+                102,
+                122,
+                75,
+                95
+            ],
+            "size": [
+                20,
+                20,
+                20
+            ],
+            "size_mm": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "coords": [
+                106,
+                126,
+                109,
+                129,
+                75,
+                95
+            ],
+            "size": [
+                20,
+                20,
+                20
+            ],
+            "size_mm": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        },
+        {
+            "coords": [
+                117,
+                137,
+                55,
+                75,
+                75,
+                95
+            ],
+            "size": [
+                20,
+                20,
+                20
+            ],
+            "size_mm": [
+                20.0,
+                20.0,
+                20.0
+            ]
+        }
+    ]
+}
