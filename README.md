@@ -1,4 +1,4 @@
-# BEP_anomaly_detection_autoencoder#
+# BEP_anomaly_detection_autoencoder
 
 ## Directory structure
 
